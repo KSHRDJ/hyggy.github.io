@@ -1,0 +1,539 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.kerri_header{
+	position: relative;
+	width: 100%;
+	height: 970px;
+	background-color: #000;
+	background-image: url(../img/fully-remote-work.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+.kerri_header_overlay{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: rgba(0,0,0,0.7);
+	z-index: 10;
+	opacity: 1;
+}
+
+.kerri_top{
+	position: relative;
+	z-index: 20;
+}
+
+.kerri_top_in{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.kerri_menu{
+	display: flex;
+	align-items: center;
+	padding-top: 15px;
+}
+
+.kerri_menu ul{
+	list-style-type: none;
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+	font-weight: 800;
+}
+
+.kerri_menu ul li{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.kerri_menu ul li a{
+	text-decoration: none;
+	color: #8A8A8A;
+	transition: 0.3s;
+}
+
+.kerri_menu ul li a:hover{
+	color: green;
+}
+
+.kerri_width{
+	width: 100%;
+	padding: 0px 300px;
+	margin: 0px auto; 
+}
+
+.kerri_width_in{
+	width: 100%;
+}
+
+.kerri_logo img{
+	width: 80px;
+	margin-top: 20px;
+}
+
+.kerri_text_holder{
+	max-width: 1200px;
+	margin: 0px auto;
+	color: white; 
+	text-align: center;
+	padding-top: 130px;
+}
+
+.kerri_text_holder h1{
+	font-size: 60px;
+}
+
+.kerri_text_holder h5{
+	font-size: 25px;
+}
+
+.kerri_text_holder a.kerri_button{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	background-color: green;
+	border: 2px solid green;
+	border-radius: 5px;
+	margin-top: 30px;
+	display: inline-block;
+	transition: all 500ms ease;
+	letter-spacing: 1px;
+	font-size: 15px;
+}
+
+.kerri_text_holder a.kerri_button:hover{
+	background-color: darkgreen;
+	border: 2px solid darkgreen;
+}
+
+.kerri_header_content{
+	position: relative;
+	z-index: 30;
+	font-family: 'Nunito', sans-serif;
+	margin-top: 150px;
+}
+
+.service{
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	height: 750px;
+}
+
+.ser{
+	font-size: 30px;
+	color: black;
+}
+
+.our{
+	padding-top: 100px;
+}
+
+.our p{
+	font-size: 20px;
+	color: dimgray;
+}
+
+.lif{
+	width: 100%;
+}
+
+.lif ul{
+	list-style-type: none;
+	margin-left: -60px;
+}
+
+.lif ul li{
+	width: 33.3333%;
+	float: left;
+	padding-left: 60px;
+	margin-bottom: 60px;
+}
+
+.in p{
+	max-width: 430px;
+	margin: 0px auto;
+	color: dimgray;
+	font-size: 17px;
+}
+
+.in img{
+	width: 80px;
+	height: 80px;
+}
+
+.text{
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.rich{
+	height: 626px;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	background-color: #1A1A1A;
+}
+
+.rich h1{
+	color: white;
+	padding-top: 100px;
+}
+
+.rich h3{
+	color: white;
+}
+
+.work{
+	text-align: center;	
+	height: 1100px;
+	font-family: 'Nunito', sans-serif;
+}
+
+.pro{
+	font-size: 20px;
+}
+
+.link{
+	margin-left: 20px;
+}
+
+.link a{
+	text-decoration: none;
+	color: black;
+	margin-right: 25px;
+	transition: 0.5s;
+	font-size: 15px;
+}
+
+.link a:hover{
+	color: limegreen;
+}
+
+.galary{
+	max-width: 1200px;
+	margin: 0px auto;
+	padding-top: 50px;
+	width: 100%;
+}
+
+.galary img{
+	max-width: 100%;
+}
+
+.galary ul{
+	margin-left: -20px;
+	list-style-type: none;
+}
+
+.galary ul li{
+	width: 33.3333%;
+	float: left;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+
+.jpgs{
+	position: relative;
+}
+
+.green{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 6px;
+	background-color: #00B65E;
+	z-index: 10;
+	opacity: 0;
+	text-align: center;
+	transition: 0.3s;
+}
+
+.jpgs:hover .green{
+	opacity: 0.9;
+}
+
+.texts{
+	position: relative;
+	top: 40%;
+	color: white;
+}
+
+.big{
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.load{
+	padding-top: 50px;
+	width: 100%;
+	float: left;
+}
+
+.load a{
+	background-color: white;
+	color: #363636;
+	border: 2px solid #363636;
+	border-radius: 5px;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 800;
+	transition: 0.4s;
+}
+
+.load a:hover{
+	background-color: #363636;
+	color: white;
+}
+
+.pur{
+	text-align: center;	
+	padding-top: 180px;
+	height: 450px;
+	font-family: 'Nunito', sans-serif;
+	background-color: black;
+	color: white;
+}
+
+.pur span{
+	font-size: 25px;
+}
+
+.pur strong{
+	font-size: 35px;
+}
+
+.div5{
+	width: 100%;
+	float: left;
+	font-family: 'Nunito', sans-serif;
+	height: 600px;
+	background-color: white;
+}
+
+.left{
+	width: 50%;
+	float: left;
+	background-image: url(http://themes.iki-bir.com/hygge/style/images/art/about.jpg);
+	position: relative;
+	height: 600px;
+}
+
+.right{
+	width: 50%;
+	float: left;
+	padding: 70px;
+}
+
+.right h3{
+	font-size: 25px;
+}
+
+.gray1{
+	font-size: 20px;
+	max-width: 450px;
+	color: #7B7979;
+}
+
+.gray2{
+	font-size: 15px;
+	max-width: 490px;
+}
+
+.prosent1{
+	width: 440px;
+	height: 14px;
+	background-color: #45be84;
+	display: block;
+}
+
+.prosent2{
+	width: 350px;
+	height: 14px;
+	background-color: #45be84;
+	display: block;
+}
+
+.prosent3{
+	width: 400px;
+	height: 14px;
+	background-color: #45be84;
+	display: block;
+}
+
+.prosent4{
+	width: 300px;
+	height: 14px;
+	background-color: #45be84;
+	display: block;
+}
+
+.Q{
+	width: 500px;
+	height: 16px;
+	border-radius: 4px;
+	background-color: white;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border: 1px solid #45be84;
+}
+
+.prose{
+	color: #45be84;
+}
+
+.div6{
+	text-align: center;	
+	height: 1350px;
+	font-family: 'Nunito', sans-serif;
+	background-color: #EFEFEF;
+}
+
+.div6 h3{
+	padding-top: 100px;
+	display: inline-block;
+}
+
+.mod{
+	color: #9E9C9C;
+	font-size: 20px;
+	margin-bottom: 50px;
+	display: inline-block;
+}
+
+.krug{
+	display: flex;
+	position: relative;
+	padding-bottom: 350px;
+	max-width: 1150px;
+	margin: 0px auto;
+}
+
+.krug span{
+	margin: 0px auto;
+	position: absolute;
+	color: white;
+	font-weight: 800;
+}
+
+.blue{
+	left: 0px;
+	padding: 150px 100px;
+	border-radius: 100%;
+	background-color: dodgerblue;
+	opacity: 0.6;
+}
+
+.red{
+	left: 260px;
+	padding: 150px 110px;
+	border-radius: 100%;
+	background-color: red;
+	opacity: 0.6;
+}
+
+.yellow{
+	right: 275px;
+	padding: 150px 100px;
+	border-radius: 100%;
+	background-color: green;
+	opacity: 0.6;
+}
+
+.greenn{
+	right: 0px;
+	padding: 150px 90px;
+	border-radius: 100%;
+	background-color: orange;
+	opacity: 0.6;
+}
+
+.div6 p{
+	max-width: 960px;
+	margin: 0px auto;
+	color: #868686;
+}
+
+.div7{
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	background-color: #F9F9F9;
+	height: 800px;
+	padding-top: 100px;
+	width: 100%;
+}
+
+.meet{
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-bottom: 100px;
+	display: inline-block;
+	font-weight: 700;
+}
+
+.sale{
+	text-transform: uppercase;
+	font-weight: 800;
+	display: inline-block;
+}
+
+.div7 ul{
+	margin-left: -20px;
+	list-style-type: none;
+	text-align: center;
+}
+
+.div7 ul li{
+	width: 25%;
+	float: left;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+
+.workers{
+	max-width: 1600px;
+	margin: 0px auto;
+}
+
+.gree{
+	color: forestgreen;
+}
+
+.worker img{
+	max-width: 70%;
+}
+
+.worker p{
+	max-width: 300px;
+	margin: 0px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
